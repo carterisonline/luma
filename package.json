@@ -1,0 +1,22 @@
+{
+  "name": "space-colony-3",
+  "version": "3.0.0",
+  "description": "space bideo game",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "run-p build start-run",
+    "build": "tsc --watch",
+    "server": "browser-sync start --server -w",
+    "start-debug": "./run-tsr.sh",
+    "build-debug": "./build-tsr.sh",
+    "build-legacy": "tsc && ./build-legacy.sh"
+  },
+  "homepage": "https://github.com/carterisonline/sc3",
+  "devDependencies": {
+    "@types/p5": "^0.9.0",
+    "browser-sync": "^2.26.12",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^4.2.1-rc",
+    "ts-runtime": "^0.3"
+  }
+}
