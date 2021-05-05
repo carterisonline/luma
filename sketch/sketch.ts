@@ -5,21 +5,19 @@
 let i: Array<number>;
 let j: p5.Vector;
 
-function setup() {
+function setup(): void {
   console.log("🚀 - Setup initialized - P5 is running");
   print("Hello, World!");
-  // FULLSCREEN CANVAS
-  createCanvas(400, 400);
+  createCanvas(600, 600);
 
   i = new Array();
   i.push(10);
 
   j = createVector();
 
-  // SETUP SOME OPTIONS
   rectMode(CENTER).noFill().frameRate(30);
 }
-function draw() {
+function draw(): void {
   push();
   background(0);
   pop();
