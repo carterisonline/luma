@@ -1,7 +1,7 @@
 {
-  "name": "space-colony-3",
-  "version": "3.0.0",
-  "description": "space bideo game",
+  "name": "stackbin-compiler",
+  "version": "0.1.0",
+  "description": "The STACKBIN language compiler to IR",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "run-p build server",
@@ -11,7 +11,7 @@
     "build-debug": "./build-tsr.sh",
     "build-legacy": "tsc && ./build-legacy.sh"
   },
-  "homepage": "https://github.com/carterisonline/sc3",
+  "homepage": "https://github.com/carterisonline/stackbin-compiler",
   "devDependencies": {
     "@types/p5": "^0.9.1",
     "browser-sync": "^2.26.12",
